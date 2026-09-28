@@ -303,7 +303,7 @@ const team = [
   {
     number: "03",
     name: "Deborah",
-    position: "Secretary",
+    position: "Chief of Staff",
     image: deborahImage,
     whatsapp: "234XXXXXXXXXX",
   },

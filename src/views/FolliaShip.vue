@@ -30,10 +30,30 @@
               </p>
 
               <div class="hero-actions">
-                <a href="#how-it-works" class="primary-button">
-                  See how it works
-                  <span>↓</span>
-                </a>
+            <div class="hero-actions">
+            <div class="download-area">
+            <a
+                href="https://github.com/fejitech2025-art/follia-site/releases/download/v1.0.0/FolliaShip-Setup-1.0.0.exe"
+                class="primary-button"
+            >
+                Download for Windows
+                <span>↓</span>
+            </a>
+
+            <div class="download-note">
+                <svg
+                class="windows-icon"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+                >
+                <path d="M2 5.2 10.4 4v7.9H2V5.2Zm9.6-1.4L22 2v9.9h-10.4V3.8ZM2 13h8.4v7.9L2 19.7V13Zm9.6 0H22V23l-10.4-1.8V13Z" />
+                </svg>
+
+                <span>Windows 8 / 10 / 11</span>
+            </div>
+            </div>
+            </div>
 
                 <a href="#problem" class="secondary-button">
                   Why FolliaShip?
@@ -600,6 +620,34 @@ import Navbar from "../components/Navbar.vue";
     transform 0.2s ease,
     background 0.2s ease;
 }
+
+
+
+
+.download-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.download-note {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #64748b;
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+.windows-icon {
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;
+}
+
+
+
 
 .primary-button {
   gap: 12px;
